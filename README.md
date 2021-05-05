@@ -4,7 +4,7 @@
     SampleLandia is an application to provide users with audio samples based upon their search requirements and also HOPEFULLY upload their own samples. This application utilizes the freesound.org API.
 
 ## Wireframes
-
+![ERD](erd.png)
 
 ## Routes
     -POST /users (create user)
