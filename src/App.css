@@ -1,0 +1,340 @@
+.App {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  background-color: rgba(0, 0, 0, 0.269);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 70%;
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.269);
+  padding: 20px
+}
+
+.login-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 70%;
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.269);
+  padding: 20px
+}
+
+.profile-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 70%;
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.269);
+  padding: 20px;
+  color: aliceblue;
+}
+
+.edit-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 70%;
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.269);
+  padding: 20px;
+  color: aliceblue
+}
+
+.edit-button{
+  margin: 10px;
+  width: 180px
+}
+.delete-button{
+  margin: 10px;
+  width: 180px
+}
+
+.rhap_container {
+  width: 70%;
+  margin: 20px
+}
+
+.heart-fill, .heart-hollow {
+  margin-top: -40px;
+  cursor: pointer;
+}
+
+.profile-div h1 {
+  font-size: 60px;
+}
+
+.nav-bar p{
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.login-form {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-div h1 {
+  color: aliceblue;
+}
+
+.dl-div {
+  align-self: flex-end;
+  color: rgba(255, 255, 255, 0.584);
+  cursor: pointer;
+}
+
+.dl-image {
+  margin-bottom: -20px;
+  width: 75px;
+}
+
+.login-form label {
+  font-size: 25px;
+  margin: 5px
+}
+
+.login-form textarea{
+  width: 300px;
+  height: 100px;
+  margin: 20px
+} 
+
+.login-form-input {
+  width: 200px;
+  margin: 5px;
+  height: 25px
+}
+
+.submit-login {
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.dl-button {
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.home-header {
+  color: aliceblue;
+  font-size: 75px;
+}
+
+.home-div p {
+  color: aliceblue;
+}
+
+.search-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 70%;
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.269);
+  padding: 20px;
+  color: aliceblue
+}
+
+.upload-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 70%;
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.269);
+  padding: 20px;
+  color: aliceblue
+}
+
+.upload-page h1 {
+  font-size: 60px;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-form textarea {
+  width: 300px;
+  height: 100px;
+  margin: 20px
+}
+
+.submit-button {
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.upload-file {
+  text-align: center;
+  width: 350px
+}
+
+.free-button {
+  background-color: hsla(191, 67%, 65%, 0.516);
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.free-button-dis {
+  background-color: aliceblue;
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.samp-button {
+  background-color: hsla(191, 67%, 65%, 0.516);
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.samp-button-dis {
+  background-color: aliceblue;
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.search-div h1 {
+  font-size: 60px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-query {
+  margin: 10px;
+  height: 30px;
+  width: 300px;
+}
+
+.submit-search {
+  margin: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.user-samples {
+  min-width: 70%;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: solid aliceblue
+}
+
+.search-results {
+  min-width: 70%;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.each-result-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 75px;
+  border: 1px solid aliceblue;
+  margin: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+.each-result-div h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: aliceblue
+}
+
+.result-buttons {
+  display: flex;
+  margin: 15px;
+}
+
+.more-button {
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.new-button {
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.link {
+  color: aliceblue;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+}
+
+.App-link {
+  color: #61dafb;
+}
