@@ -2,8 +2,8 @@
 
 ## Deployed Link
 https://samplelandia.herokuapp.com/
-email: test1@test.com   
-password: password
+-email: test1@test.com   
+-password: password
 
 ## Objective
     SampleLandia is an application to provide users with audio samples based upon their search requirements and also HOPEFULLY upload their own samples. This application utilizes the freesound.org API.
